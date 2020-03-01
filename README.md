@@ -1,27 +1,23 @@
-<snippet>
-  <content><![CDATA[
-# ${1:Mac_Changer}
+##mac_changer
 
 TODO: A simple python script to change mac address easily
+```sh
+|XX          +-+-+-+ +-+-+-+-+-+-+-+-+           XX|
+|XX          |M|a|c| |c|h|a|n|g|e|r|!|           XX|
+|XX      +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+     XX|
+|XX      |c|r|e|a|t|e|d| |b|y| |Z|i|g|M|u|d|     XX|
+|XX      +-+-+-+-+-+-+-+ +-+-+ +-+-+-+-+-+-+     XX|
 
->_____________________________________________________________
->
->XX          +-+-+-+ +-+-+-+-+-+-+-+-+           XX
->XX          |M|a|c| |c|h|a|n|g|e|r|!|           XX
->XX      +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+     XX
->XX      |c|r|e|a|t|e|d| |b|y| |Z|i|g|M|u|d|     XX
->XX      +-+-+-+-+-+-+-+ +-+-+ +-+-+-+-+-+-+     XX
+Current MAC = 00:11:22:25:21:11
+[+] Changing MAC address for eth0 to 00:11:22:25:21:11
+[+] MAC address was successfully changed to 00:11:22:25:21:11
+```
 
->Current MAC = 00:11:22:25:21:11
->[+] Changing MAC address for eth0 to 00:11:22:25:21:11
->[+] MAC address was successfully changed to 00:11:22:25:21:11
->_______________________________________________________________
-
-## Installation
+## installation
 
 TODO: Copy mac_changer.py to your folder 
 
-## What can this script do!:
+## what can this script do!:
 
 1. -> show your logo in terminal
 2. -> show your current mac address
@@ -45,7 +41,7 @@ OR
 >--new_mac
 >--help
 
-## Contributing
+## contributing
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
@@ -53,6 +49,4 @@ OR
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
+
