@@ -1,4 +1,4 @@
-##mac_changer
+### mac_changer
 
 TODO: A simple python script to change mac address easily
 ```sh
@@ -53,4 +53,4 @@ TODO: Copy mac_changer.py to your folder
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-
+## license >*Free Software, Hell Yeah!*
