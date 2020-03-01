@@ -1,28 +1,33 @@
+<snippet>
+  <content><![CDATA[
+# ${1:Mac_Changer}
 
-# mac_changer
-_____________________________________________________________
+TODO: A simple python script to change mac address easily
 
+>_____________________________________________________________
+>
 >XX          +-+-+-+ +-+-+-+-+-+-+-+-+           XX
 >XX          |M|a|c| |c|h|a|n|g|e|r|!|           XX
 >XX      +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+     XX
 >XX      |c|r|e|a|t|e|d| |b|y| |Z|i|g|M|u|d|     XX
 >XX      +-+-+-+-+-+-+-+ +-+-+ +-+-+-+-+-+-+     XX
 
-Current MAC = 00:11:22:25:21:11
-[+] Changing MAC address for eth0 to 00:11:22:25:21:11
-[+] MAC address was successfully changed to 00:11:22:25:21:11
-_______________________________________________________________
+>Current MAC = 00:11:22:25:21:11
+>[+] Changing MAC address for eth0 to 00:11:22:25:21:11
+>[+] MAC address was successfully changed to 00:11:22:25:21:11
+>_______________________________________________________________
 
-A simple python script to change mac address easily
-# what can this script do! :
+## Installation
 
-1 -> show your logo in terminal
-2 -> show your current mac address
-3 -> change your mac address custumly
+TODO: Copy mac_changer.py to your folder 
 
-You are welcom to contribute :-)
+## What can this script do!:
 
-# how to run the script :
+1. -> show your logo in terminal
+2. -> show your current mac address
+3. -> change your mac address custumly
+
+## how to run the script:
 
 type in terminal your interface which you want to change for wlan0 will be following line in terminal: 
 
@@ -30,13 +35,24 @@ type in terminal your interface which you want to change for wlan0 will be follo
 
 if you need more help, you can type in terminal following command:
  > python mac_changer --help
-
 where: 
 
 -i (your interface: wlan1/wlan0/eth0)
 -m (new mac address)
 -h (help)
 OR
---interface
---new_mac
---help
+>--interface
+>--new_mac
+>--help
+
+## Contributing
+
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
+
+]]></content>
+  <tabTrigger>readme</tabTrigger>
+</snippet>
