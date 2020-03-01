@@ -1,4 +1,4 @@
-### mac_changer
+## Mac_changer
 
 TODO: A simple python script to change mac address easily
 ```sh
@@ -13,17 +13,16 @@ Current MAC = 00:11:22:25:21:11
 [+] MAC address was successfully changed to 00:11:22:25:21:11
 ```
 
-## installation
+## Installation
 
 TODO: Copy mac_changer.py to your folder 
 
-## what can this script do!:
+## What can this script do!:
 
 1. -> show your logo in terminal
 2. -> show your current mac address
 3. -> change your mac address custumly
-
-## how to run the script:
+## How to run the script:
 
 >type in terminal your interface which you want to change for wlan0 will be following line in terminal: 
 
@@ -45,7 +44,7 @@ TODO: Copy mac_changer.py to your folder
 `--new_mac`
 `--help`
 
-## contributing
+## Contributing
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
@@ -53,4 +52,4 @@ TODO: Copy mac_changer.py to your folder
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-## license >*Free Software, Hell Yeah!*
+## License >*Free Software, Hell Yeah!*
