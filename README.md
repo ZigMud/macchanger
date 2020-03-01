@@ -25,21 +25,25 @@ TODO: Copy mac_changer.py to your folder
 
 ## how to run the script:
 
-type in terminal your interface which you want to change for wlan0 will be following line in terminal: 
+>type in terminal your interface which you want to change for wlan0 will be following line in terminal: 
 
-> python mac_changer.py -i wlan0 -m 00:00:00:00:00:00
+`python mac_changer.py -i wlan0 -m 00:00:00:00:00:00`
 
-if you need more help, you can type in terminal following command:
- > python mac_changer --help
-where: 
+>if you need more help, you can type in terminal following command:
+ 
+ `python mac_changer --help`
+ 
+>where: 
 
--i (your interface: wlan1/wlan0/eth0)
--m (new mac address)
--h (help)
-OR
->--interface
->--new_mac
->--help
+`-i` >(your interface: wlan1/wlan0/eth0)
+`-m` >(new mac address)
+`-h` >(help)
+
+>OR
+
+`--interface`
+`--new_mac`
+`--help`
 
 ## contributing
 
